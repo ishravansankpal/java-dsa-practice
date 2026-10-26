@@ -21,5 +21,22 @@ public class Ques2 {
         }
         System.out.println(count);
     }
-    
 }
+
+//Ques3. Find the largest element
+
+public class Ques3{
+    public static void main(String[] args){
+        int[] num = {1,2,3,4,5};
+        int max = num[0];
+
+        for(int i=0; i<num.length;i++){
+            if(max < num[i]){
+                max = num[i];
+            }
+        }
+        System.out.println(max);
+    }
+}
+
+
