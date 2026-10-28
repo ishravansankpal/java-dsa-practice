@@ -101,9 +101,22 @@ public class Ques7 {
     
 }
 -----------------------------------------------------------------------------------------------
+//Ques8. Count odd numbers
 
-
-
+public class Ques8 {
+    public static void main(String[] args) {
+        int[] num = {1,4,2,3,9,2,5};
+        int odd = 0;
+        for(int i=0; i<num.length;i++){
+            if(num[i]%2 != 0){
+                odd++;
+            }
+        }
+        System.out.println(odd);
+    }
+    
+}
+-----------------------------------------------------------------------------
     
 
 
