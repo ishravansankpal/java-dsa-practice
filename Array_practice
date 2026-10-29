@@ -165,6 +165,19 @@ public class Ques11 {
 
     
 }
+-----------------------------------------------------------------------
+//Ques12. Print Array in Reverse Order
+
+public class Ques12 {
+    public static void main(String[] args) {
+        int[] num = {2,4,6,8};
+        for(int i=num.length-1; i>=0; i--){
+            System.out.print(num[i] + " ");
+        }
+    }
+    
+}
+
 
 
 
