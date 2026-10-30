@@ -200,6 +200,20 @@ public class Ques14 {
     }
     
 }
+--------------------------------------------------------------------
+//Ques15. Find middle element
+
+public class Ques15 {
+    public static void main(String[] args) {
+        int[] arr = {2, 3, 1, 5, 6};
+
+        int middle = arr.length / 2;
+
+        System.out.println(arr[middle]);
+    }
+}
+    
+
 
 
 
