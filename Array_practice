@@ -188,6 +188,19 @@ public class Ques13 {
     }
     
 }
+---------------------------------------------------------------------------------
+//Ques14. Find last element
+
+public class Ques14 {
+    public static void main(String[] args) {
+        int[] arr = {1,4,2,7,9};
+
+        System.out.println(arr[arr.length-1]);
+
+    }
+    
+}
+
 
 
 
