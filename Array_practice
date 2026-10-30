@@ -212,7 +212,7 @@ public class Ques15 {
         System.out.println(arr[middle]);
     }
 }
-    
+
 
 
 
