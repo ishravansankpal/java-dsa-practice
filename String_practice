@@ -26,3 +26,22 @@ public class Ques2 {
         }
        
 }
+--------------------------------------------------------------------------
+//Ques 3. Count vowels
+
+public class Ques3 {
+    public static void main(String[] args) {
+        int count = 0;
+
+        String word = "Rahul";
+
+        for(int i=0; i < word.length(); i++ ){
+            char ch = word.charAt(i);
+
+            if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u'){
+                count += 1;
+            } 
+        }
+        System.out.println("Vowel count: " + count);
+    }
+}
