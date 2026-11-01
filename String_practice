@@ -1,1 +1,12 @@
+//Ques 1. Print each character
 
+public class Ques1 {
+    public static void main(String[] args) {
+        String word = "Rahul";
+
+        for (int i = 0; i < word.length(); i++) {
+            char ch = word.charAt(i);
+            System.out.print(ch + " ");
+        }
+    }
+}
