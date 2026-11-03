@@ -67,3 +67,22 @@ public class Ques4 {
     }
     
 }
+-----------------------------------------------------------------------------------------
+//Ques 5. Count digits
+
+public class Ques5 {
+    public static void main(String[] args) {
+        String a = "abShab1eh421c";
+        int count = 0; 
+
+        for (int i = 0; i < a.length(); i++) {
+            char ch = a.charAt(i);
+            
+            if (Character.isDigit(ch)) {
+                count += 1;
+            }
+        }
+        
+        System.out.println("Count: " + count);
+    }
+}
