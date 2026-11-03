@@ -46,3 +46,27 @@ public class Ques3 {
     }
 }
 ----------------------------------------------------------------------------------------
+//Ques 4. Count consonants
+
+public class Ques4 {
+    public static void main(String[] args) {
+        String word = "Rahul";
+
+        int count = 0;
+
+        for(int i=0; i < word.length(); i++){
+            char ch = word.charAt(i);
+
+            if(ch != 'a'&& ch != 'e' && ch != 'i' && ch != 'o' && ch != 'u'){
+                count += 1; 
+            }
+            
+        }
+       System.out.println("Count " + count);
+        
+    }
+    
+}
+-----------------------------------------------------------------------------------------
+
+
