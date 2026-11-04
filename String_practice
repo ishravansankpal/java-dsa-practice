@@ -86,4 +86,25 @@ public class Ques5 {
         System.out.println("Count: " + count);
     }
 }
+--------------------------------------------------------------------------------------------
+//Ques 6. Count spaces
+
+public class Ques6 {
+    public static void main(String[] args) {
+        String word = "R  a  h ul";
+        int count = 0;
+
+        for(int i=0; i < word.length(); i++){
+            char ch = word.charAt(i);
+            if(ch == ' '){
+                count += 1;
+            }
+        }
+        System.out.println("Count: "+ count);
+        
+    }
+
+    
+}
+
 
