@@ -128,25 +128,7 @@ public class Ques7 {
     }
 }
 ------------------------------------------------------------------------------------------
-//Ques8. Convert to uppercase
 
-public class Ques8 {
-    public static void main(String[] args){
-        String word = "aBcDEfgh";
-        String result = "";
-
-        for(int i = 0; i < word.length(); i++){
-            char ch = word.charAt(i);
-            
-            if(Character.isLowerCase(ch)){
-                result += Character.toUpperCase(ch);
-            } else {
-                result += ch;
-            }
-        }
-        System.out.println(result); 
-    }
-}
 --------------------------------------------------------------------------------------
 
 
