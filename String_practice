@@ -10,3 +10,18 @@ public class Ques1{
         }
     }
 }
+--------------------------------------------------------------------
+//Find the length of a String without using length().
+
+public class Ques2 {
+    public static void main(String[] args) {
+        String word = "ABC";
+        int length = 0;
+
+        for (char ch : word.toCharArray()) {
+            length++;
+        }
+
+        System.out.println(length);
+    }
+}
