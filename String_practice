@@ -40,3 +40,24 @@ public class Ques3 {
     }
     
 }
+------------------------------------------------------------------
+//Check whether a String is palindrome.
+
+public class Ques4 {
+    public static void main(String[] args) {
+        String word = "ABBA";
+        String reverse = "";
+
+        for(int i=word.length()-1; i>=0; i--){
+            char ch = word.charAt(i);
+            reverse += ch;
+        }
+
+        if(word.equals(reverse)){
+            System.out.println("Word is palindrome");
+        } else {
+            System.out.println("Word is not palindrome");
+        }
+    }
+    
+}
