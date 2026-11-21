@@ -128,3 +128,28 @@ public class Ques8 {
     }
 }
 --------------------------------------------------------------------------------
+//Find the second largest element.
+
+public class Ques8 {
+    public static void main(String[] args) {
+        int[] arr = {3, 8, 9, 1};
+        int[] sortedArr = new int[arr.length];
+
+        for (int i = 0; i < arr.length; i++) {
+            sortedArr[i] = arr[i];
+        }
+
+        for (int i = 0; i < sortedArr.length; i++) {
+            for (int j = i + 1; j < sortedArr.length; j++) {
+                if (sortedArr[j] < sortedArr[i]) {
+                    int temp = sortedArr[j];
+                    sortedArr[j] = sortedArr[i];
+                    sortedArr[i] = temp;
+                }
+            }
+        }
+        
+        int secondLargest = sortedArr[sortedArr.length - 2];
+        System.out.println("Second largest element: " + secondLargest);
+    }
+}
