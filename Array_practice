@@ -181,4 +181,12 @@ public class Ques9{
     }
 }
 ------------------------------------------------------------------------------
+//Count the total number of elements.
+
+public class Ques10 {
+    public static void main(String[] args) {
+        int[] arr = {2, 4, 6, 8, 0};
+        System.out.println(arr.length);
+    }
+}
 
