@@ -154,3 +154,29 @@ public class Ques8 {
     }
 }
 -----------------------------------------------------------------------------------
+//Find the second smallest element.
+
+public class Ques9{
+    public static void main(String[] args){
+        int[] arr = {5,1,8,0};
+
+        int[] newArr = new int[arr.length];
+
+        for(int i=0; i < arr.length; i++){
+            newArr[i] = arr[i];
+        }
+
+        for(int i=0; i < newArr.length; i++){
+            for(int j=i+1; j < newArr.length; j++){
+                if(newArr[i] > newArr[j]){
+                    int temp = newArr[j];
+                    newArr[j] = newArr[i];
+                    newArr[i] = temp;
+                }
+            }
+        }
+
+        int secondSmallest = newArr[1];
+        System.out.println(secondSmallest);
+    }
+}
